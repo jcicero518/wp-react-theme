@@ -18,8 +18,8 @@ This will run `webpack-dev-server` along with `react-hot-loader` so that changes
 The big trick is to use webpack dev server's inline mode, along with setting a `publicPath` for the output file. This allows the file to be used by WordPress, but also recieve and patch updates as they come in. Also, React-hot-loader requires that the app be wrapped in an `AppContainer`, which you can see in `src/index.js`.
 
 #### To do:
-[ ] Add config for production and development
-[ ] Enqueue production or development JS file based on `WP_DEV_MODE` flag
-[ ] Add SASS support
-[ ] Add Eslint support
-[ ] Add testing support
+- [ ] Add config for production and development
+- [ ] Enqueue production or development JS file based on `WP_DEV_MODE` flag
+- [ ] Add SASS support
+- [ ] Add Eslint support
+- [ ] Add testing support
