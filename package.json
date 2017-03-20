@@ -1,0 +1,28 @@
+{
+  "name": "wp-react-theme",
+  "version": "0.0.1",
+  "description": "Webpack configuration for WordPress and React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reaktivstudios/wp-react-theme"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
+  "author": "Reaktiv Studios",
+  "license": "GPL-2.0+",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
